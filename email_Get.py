@@ -2,8 +2,8 @@ import imaplib
 import email
 
 def email_get():
-    username = 'dyganar@hotmail.com'
-    password = 'tk982629'
+    username = ''
+    password = ''
     mail = imaplib.IMAP4_SSL('imap-mail.outlook.com')
     mail.login(username, password)
 
